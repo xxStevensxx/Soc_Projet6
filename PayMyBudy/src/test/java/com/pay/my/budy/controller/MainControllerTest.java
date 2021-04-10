@@ -49,5 +49,53 @@ public class MainControllerTest {
 		
 		
 	}
+	
+	@Test
+	public void submitFormLoginTest() throws Exception {
+		
+		//WHEN
+		
+		
+		//GIVEN
+		
+		
+		//THEN
+		mockMvc.perform(get("/login")).andExpect(status().isOk());
+				
+		
+		
+	}
+	
+	@Test
+	public void contactControllerTest() throws Exception {
+		
+		//WHEN
+		
+		
+		//GIVEN
+		
+		
+		//THEN
+		mockMvc.perform(get("/contact")).andExpect(status().isOk());
+				
+		
+		
+	}
+	
+	@Test
+	public void transfertControllerTest() throws Exception {
+		
+		//WHEN
+		
+		
+		//GIVEN
+		
+		
+		//THEN
+		mockMvc.perform(get("/transfert")).andExpect(status().isOk());
+				
+		
+		
+	}
 
 }
